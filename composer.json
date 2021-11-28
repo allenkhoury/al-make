@@ -1,6 +1,11 @@
 {
   "name": "allenkhoury/al-make",
   "description": "Artisan make command for packages",
+  "keywords": [
+    "artisan",
+    "laravel"
+  ],
+  "license": "MIT",
   "authors": [
     {
       "name": "Allen",
@@ -22,5 +27,7 @@
         "AllenKhoury\\AlMake\\AlMakeServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
