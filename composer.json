@@ -1,0 +1,26 @@
+{
+  "name": "allenkhoury/al-make",
+  "description": "Artisan make command for packages",
+  "authors": [
+    {
+      "name": "Allen",
+      "email": "useralain2@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "AllenKhoury\\AlMake\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AllenKhoury\\AlMake\\AlMakeServiceProvider"
+      ]
+    }
+  }
+}
